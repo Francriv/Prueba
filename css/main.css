@@ -6,9 +6,14 @@
     background-color: black!important;
     color: black;
 }
-.text-nav{
+.text-btnup{
+    text-align: center;
+    background-color: rgb(68, 65, 65);
     color: white;
-    background-color: black;
+}
+.text-nav{
+    color: white!important;
+    background-color: rgba(0, 0, 0, 0.301);
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {      
@@ -45,7 +50,10 @@
     right: 20px;
     border: 1px solid #fff;
     display: none;
-    background: #B40404;
+    background: rgba(187, 25, 25, 0.596);
+}
+.arrow-up{
+    color: #fff;
 }
 
 .contact-1{
@@ -92,6 +100,7 @@
 .lpanelazul{
     margin-left: 4em;
 }
+
 
 } 
 @media only screen and (max-width: 1000px){

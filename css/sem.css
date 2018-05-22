@@ -1,0 +1,41 @@
+
+article {
+    height: 100vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;  
+    background-position: center;
+  }
+  .texto-imagen{
+    color: #fff;
+    font-size: 10vw;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    line-height: 3.5;
+    background: rgba(0, 0, 0, 0.205);
+  }
+  
+  .dos {
+    background-image: url(../img/Seminarios/meeting.jpg);
+    width: auto;
+    height: 500px;
+    
+  }
+  
+}
+@media only screen and (max-width: 560px){
+.dos {
+    background-image: url(../img/Seminarios/meeting.jpg);
+    width: auto;
+    height: 350px!important;
+}
+.img-sem{
+    width: 100%;
+    height: 150px;
+}
+}
+@media only screen and (max-width: 1000px){
+
+}
