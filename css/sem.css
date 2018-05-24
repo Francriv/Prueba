@@ -1,4 +1,32 @@
 
+.tab button {
+  background-color: inherit;
+  margin-left: 15em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1em;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+
 article {
   height: 100vh;
   margin-bottom: 5vh;
@@ -18,6 +46,8 @@ article {
    background: rgba(0, 0, 0, 0.205);
    position: absolute;
 }
+
+
 .dos {
   background-image: url(../img/Seminarios/meeting.jpg);
   width: auto;
@@ -43,16 +73,37 @@ article {
 .img-sem{
   width: 100%;
   height: 150px;
+
+}
+.tab button {
+  background-color: inherit;
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0em;
+  transition: 0.3s;
+  font-size: 17px;
 }
 }
 @media only screen and (max-width: 1000px){
   .texto-imagen{
     color: #fff;
-     font-size: 10vw;
+     
      font-weight: 100;
      text-align: center;
      width: 100%;
-     line-height: 9;
-     background: rgba(0, 0, 0, 0.473);
+     line-height: 4;
+     
+}
+.tab button {
+  background-color: inherit;
+  margin-left: 6em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1em;
+  transition: 0.3s;
+  font-size: 17px;
 }
 }
