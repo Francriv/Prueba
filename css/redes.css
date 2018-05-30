@@ -1,8 +1,8 @@
 .red{
 	position: fixed;
-	top: 80%;
+	top: 60%;
 	z-index: 0;
-	padding: 8px;
+	
 }
 #facebook a{
 	background: #3b5998;

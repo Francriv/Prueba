@@ -49,6 +49,8 @@
     text-align: center;
   }
   .tex-sub{
+    text-align: center;
+    overflow: hidden;
   }
 @media only screen and (max-width: 950px ){
   .image {
