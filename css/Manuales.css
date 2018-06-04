@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.row{
+  background-image: url(../img/manejo-de-carga.png);
+  background-repeat: no-repeat;
+  background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    width: 100%;
+}
 .conta {
     position: relative;
   }
@@ -51,6 +59,7 @@
   .tex-sub{
     text-align: center;
     overflow: hidden;
+    
   }
 @media only screen and (max-width: 950px ){
   .image {
